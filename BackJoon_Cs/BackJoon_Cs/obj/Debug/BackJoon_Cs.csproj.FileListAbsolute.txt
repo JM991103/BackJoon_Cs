@@ -1,0 +1,8 @@
+C:\Users\pc01\Documents\GitHub\BackJoon_Cs\BackJoon_Cs\BackJoon_Cs\bin\Debug\BackJoon_Cs.exe.config
+C:\Users\pc01\Documents\GitHub\BackJoon_Cs\BackJoon_Cs\BackJoon_Cs\bin\Debug\BackJoon_Cs.exe
+C:\Users\pc01\Documents\GitHub\BackJoon_Cs\BackJoon_Cs\BackJoon_Cs\bin\Debug\BackJoon_Cs.pdb
+C:\Users\pc01\Documents\GitHub\BackJoon_Cs\BackJoon_Cs\BackJoon_Cs\obj\Debug\BackJoon_Cs.csproj.AssemblyReference.cache
+C:\Users\pc01\Documents\GitHub\BackJoon_Cs\BackJoon_Cs\BackJoon_Cs\obj\Debug\BackJoon_Cs.csproj.SuggestedBindingRedirects.cache
+C:\Users\pc01\Documents\GitHub\BackJoon_Cs\BackJoon_Cs\BackJoon_Cs\obj\Debug\BackJoon_Cs.csproj.CoreCompileInputs.cache
+C:\Users\pc01\Documents\GitHub\BackJoon_Cs\BackJoon_Cs\BackJoon_Cs\obj\Debug\BackJoon_Cs.exe
+C:\Users\pc01\Documents\GitHub\BackJoon_Cs\BackJoon_Cs\BackJoon_Cs\obj\Debug\BackJoon_Cs.pdb
