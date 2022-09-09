@@ -12,27 +12,27 @@ namespace BackJoon_Cs
         static void Main(string[] args)
         {
             string num1 = Console.ReadLine();
-            int.TryParse(num1, out int a);
-            string num2 = Console.ReadLine();
-            int.TryParse(num2, out int b);
+            string[] arr = num1.Split();
 
-           
-            if (a > 0 && b > 0)
+            int a = int.Parse(arr[0]);
+            int b = int.Parse(arr[1]);
+
+            if (b < 45)
             {
-                Console.WriteLine("1");
+                if (a == 0)
+                {
+                    a = 23;
+                    b += 60;
+                }
+                else
+                {
+                    a -= 1;
+                    b += 60;
+                }
             }
-            else if (a < 0 && b > 0)
-            {
-                Console.WriteLine("2");
-            }
-            else if (a < 0 && b < 0)
-            {
-                Console.WriteLine("3");
-            }
-            else
-            {
-                Console.WriteLine("4");
-            }
+        
+
+            Console.WriteLine($"{a} {b - 45}");
         }
     }
 }
