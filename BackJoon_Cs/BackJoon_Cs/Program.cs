@@ -11,18 +11,27 @@ namespace BackJoon_Cs
     {
         static void Main(string[] args)
         {
-            string num = Console.ReadLine();
-            string[] arr = num.Split();
+            string num1 = Console.ReadLine();
+            int.TryParse(num1, out int a);
+            string num2 = Console.ReadLine();
+            int.TryParse(num2, out int b);
 
-            int a = int.Parse(arr[0]);
-
-            if (a % 4 == 0 && a % 100 != 0 || a % 400 ==0)
+           
+            if (a > 0 && b > 0)
             {
                 Console.WriteLine("1");
             }
+            else if (a < 0 && b > 0)
+            {
+                Console.WriteLine("2");
+            }
+            else if (a < 0 && b < 0)
+            {
+                Console.WriteLine("3");
+            }
             else
             {
-                Console.WriteLine("0");
+                Console.WriteLine("4");
             }
         }
     }
