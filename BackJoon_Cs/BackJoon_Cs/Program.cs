@@ -11,16 +11,34 @@ namespace BackJoon_Cs
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("         ,r'\"7");
-            Console.WriteLine("r`-_   ,'  ,/");
-            Console.WriteLine(" \\. \". L_r'");
-            Console.WriteLine("   `~\\/");
-            Console.WriteLine("      |");
-            Console.WriteLine("      |");
+            string num = Console.ReadLine();
+            string[] arr = num.Split();
+
+            int a = int.Parse(arr[0]);
+
+            if (a >= 0 && a <= 100)
+            {
+                if (a >= 90)
+                {
+                    Console.WriteLine("A");
+                }
+                else if (a >= 80) 
+                {
+                    Console.WriteLine("B");
+                }
+                else if (a >= 70)
+                {
+                    Console.WriteLine("C");
+                }
+                else if (a >= 60)
+                {
+                    Console.WriteLine("D");
+                }
+                else
+                {
+                    Console.WriteLine("F");
+                }
+            }
         }
     }
 }
-
-
-
-
