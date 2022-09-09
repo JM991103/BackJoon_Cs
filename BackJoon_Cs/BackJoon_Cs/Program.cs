@@ -16,28 +16,13 @@ namespace BackJoon_Cs
 
             int a = int.Parse(arr[0]);
 
-            if (a >= 0 && a <= 100)
+            if (a % 4 == 0 && a % 100 != 0 || a % 400 ==0)
             {
-                if (a >= 90)
-                {
-                    Console.WriteLine("A");
-                }
-                else if (a >= 80) 
-                {
-                    Console.WriteLine("B");
-                }
-                else if (a >= 70)
-                {
-                    Console.WriteLine("C");
-                }
-                else if (a >= 60)
-                {
-                    Console.WriteLine("D");
-                }
-                else
-                {
-                    Console.WriteLine("F");
-                }
+                Console.WriteLine("1");
+            }
+            else
+            {
+                Console.WriteLine("0");
             }
         }
     }
