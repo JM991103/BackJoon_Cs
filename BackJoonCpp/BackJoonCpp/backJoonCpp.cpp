@@ -3,14 +3,55 @@ using namespace std;
 
 int main()
 {
-	int H, M, m;
-	cin >> H >> M;
-	cin >> m;
+	int a, b, c;
 
-	int Max = (H * 60) + M + m;
+	cin >> a >> b >> c;
+	
+	if (a != b && b != c && c != a)
+	{
+		int max;
+		if (a > b)
+		{
+			if (c > a)
+			{
+				max = c;
+			}
+			else
+			{
+				max = a;
+			}
+		}
+		else
+		{
+			if (c > b)
+			{
+				max = c;
+			}
+			else
+			{
+				max = b;
+			}
+		}
+		cout << max * 100;
+	}
+	else
+	{
+		if (a == b && a == c)
+		{
+			cout << 10000 + a * 1000;
+		}
+		else
+		{
+			if (a == b || a == c)
+			{
+				cout << 1000 + a * 100;
+			}
+			else
+			{
+				cout << 1000 + b * 100;
+			}
+		}
+	}
 
-	H = (Max / 60) % 24;
-	M = Max % 60;
-
-	cout << H << " " << M << endl;
+	return 0;
 }
