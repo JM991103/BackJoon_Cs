@@ -3,55 +3,15 @@ using namespace std;
 
 int main()
 {
-	int a, b, c;
+	int a;
 
-	cin >> a >> b >> c;
+	cin >> a;
+
+	for (int i = 1; i < 10; i++)
+	{
+		cout << a << " * " << i << " = " << a * i << endl;
+	}
 	
-	if (a != b && b != c && c != a)
-	{
-		int max;
-		if (a > b)
-		{
-			if (c > a)
-			{
-				max = c;
-			}
-			else
-			{
-				max = a;
-			}
-		}
-		else
-		{
-			if (c > b)
-			{
-				max = c;
-			}
-			else
-			{
-				max = b;
-			}
-		}
-		cout << max * 100;
-	}
-	else
-	{
-		if (a == b && a == c)
-		{
-			cout << 10000 + a * 1000;
-		}
-		else
-		{
-			if (a == b || a == c)
-			{
-				cout << 1000 + a * 100;
-			}
-			else
-			{
-				cout << 1000 + b * 100;
-			}
-		}
-	}
-
+	
 	return 0;
 }
