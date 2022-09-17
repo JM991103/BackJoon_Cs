@@ -1,17 +1,18 @@
 #include <iostream>
-using namespace std;
+
 
 int main()
 {
-	int a;
+	int a, num;
+	std::cin >> a;
 
-	cin >> a;
-
-	for (int i = 1; i < 10; i++)
+	for (int i = 1; i <= a; i++)
 	{
-		cout << a << " * " << i << " = " << a * i << endl;
+		int b, c;
+		std::cin >> b >> c;
+		num = b + c;
+		std::cout << num << std::endl;
 	}
-	
-	
+		
 	return 0;
 }
