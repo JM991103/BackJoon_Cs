@@ -3,16 +3,15 @@
 
 int main()
 {
-	int a, num;
+	int a, num = 0;
 	std::cin >> a;
 
-	for (int i = 1; i <= a; i++)
+	for (int i = 0; i <= a; i++)
 	{
-		int b, c;
-		std::cin >> b >> c;
-		num = b + c;
-		std::cout << num << std::endl;
+		num += i;
 	}
 		
+	std::cout << num << std::endl;
+
 	return 0;
 }
